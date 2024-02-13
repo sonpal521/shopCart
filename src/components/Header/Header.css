@@ -1,0 +1,15 @@
+
+#title a {
+    /* letter-spacing: 10px; */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navbar-text{
+    margin-left: 40px;
+    
+}
+.navbar-text a{
+    /* margin-left: 40px; */
+    color: black;
+    text-decoration: none;
+}

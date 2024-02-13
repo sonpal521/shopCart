@@ -1,0 +1,127 @@
+.home-title {
+    font-size: 2.5rem;
+    margin-top:2rem;
+    margin-bottom: 5rem;
+    color: var(--dark-sky-blue);
+    /* letter-spacing: 1rem; */
+}
+
+.category-title {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--dark-sky-blue);
+
+
+}
+
+
+.category-list {
+    margin-top: rem;
+    gap: 1rem;
+}
+
+.category-item {
+    border: 1px solid var(--pale-blue);
+    box-shadow: 4px 4px 2px var(--mid-gray);
+    width: 150px;
+    background-color: var(--jean-blue);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 100px;
+    min-width: 135px;
+}
+
+.category-item a {
+    color: var(--blue-gray);
+    text-decoration: none;
+    font-size: 1rem;
+   
+}
+
+.category-item:hover {
+    box-shadow: 0px 0px;
+    transition: box-shadow 0.15s linear 0s;
+}
+
+.welcome-wrapper {
+    margin-top: 5rem;
+}
+
+
+
+/* @media (min-width: 992px) {
+    .home-title {
+      font-size: 4.5rem;
+      margin-top: 8rem;
+    }
+  
+    .category-title {
+      font-size: 1.8rem;
+      margin-top: 4rem;
+    }
+  
+    .category-item {
+      width: 180px;
+      padding: 25px 35px;
+      min-height: 120px;
+      min-width: 160px;
+    }
+  } */
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .home-title {
+      font-size: 3rem;
+      margin-top: 6rem;
+    }
+  
+    .category-title {
+      font-size: 1.6rem;
+      margin-top: 3rem;
+    }
+  
+    .category-item {
+      width: 160px;
+      padding: 22px 30px;
+      min-height: 110px;
+      min-width: 145px;
+    }
+    .category-list{
+      /* margin-top: 15px; */
+      display: flex;
+      flex-wrap: wrap;
+  }
+  }
+  
+  
+  
+  
+  @media (max-width: 576px) {
+    .home-title {
+      font-size: 1rem;
+      margin-top: 3rem; 
+       /* letter-spacing: 0.1rem; */
+    }
+  
+    .category-title {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    
+    }
+    .category-list{
+        /* margin-top: 15px; */
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .category-item {
+      width: 120px;
+      padding: 15px 20px;
+      margin-top: 15px;
+     
+      min-height: 80px;
+      min-width: 105px;
+    }
+  }
+  

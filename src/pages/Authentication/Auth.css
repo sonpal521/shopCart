@@ -1,0 +1,70 @@
+/* .container {
+    width: 200px; /* Adjust the maximum width as needed */
+    /* margin: 20px;
+    padding: 20px;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
+/* } */ 
+
+.home-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    
+ } 
+
+.login-wrapper {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-wrapper .signup-btn {
+    cursor: pointer;
+    color: black;
+    padding: 1rem;
+}
+
+.login-wrapper .signup-btn:hover {
+    text-decoration: underline;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.login-wrapper h4 {
+    font-size: 2rem;
+    
+}
+
+/* Media query for smaller screens, like tablets */
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    .login-wrapper {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        width: auto;
+    }
+    .home-title {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+       
+    }
+    .login-wrapper {
+        width: 90%;
+    }
+    .login-wrapper h4 {
+        font-size:1.5rem;
+       
+    }
+}

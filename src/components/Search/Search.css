@@ -1,0 +1,36 @@
+
+  
+#result-list {
+    /* display: none; */
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    width: 20%;
+    border-radius: 10px;
+    max-height: 400px;
+    overflow-y:hidden;
+    border-top: 1px solid var(--pale-blue);
+}
+#result-list > .autocomplete-result {
+    font-size: small;
+    letter-spacing: 0;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+.movie-base-title > a {
+    color: white;
+    text-decoration: none;
+}
+
+.autocomplete-result:hover {
+    background-color: var(--light-gray);
+    cursor: pointer;
+    
+}
+
+.theme-icon {
+    font-size: x-large;
+    cursor: pointer;
+}
