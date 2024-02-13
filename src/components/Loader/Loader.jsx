@@ -1,6 +1,6 @@
 
 import { Spinner } from 'reactstrap';
-import './loader.css'; // Import the CSS file
+import './Loader.css'; // Import the CSS file
 
 function Loader() {
   return (
